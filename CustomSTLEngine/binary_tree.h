@@ -1,9 +1,10 @@
 #pragma once
 
+#include "abstract_tree.h"
 #include <iostream>
 
 template<typename T>
-class BinaryNode {
+class BinaryNode : public TreeNode {
 public:
 	T value;
 	BinaryNode* left = nullptr;
@@ -12,13 +13,12 @@ public:
 	BinaryNode(T value);
 	~BinaryNode();
 
-	void insert(BinaryNode* node, T value);
 	BinaryNode* delete_node(BinaryNode* node, T value);
 	
+	void insert(BinaryNode* node, T value);
 	void symmetric_print(const BinaryNode* node);
 	void backward_print(const BinaryNode* node);
 	void forward_print(const BinaryNode* node);
-
 	void delete_tree(BinaryNode* node);
 
 	const BinaryNode* search(const BinaryNode* node, T value);

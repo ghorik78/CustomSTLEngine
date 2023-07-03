@@ -27,6 +27,9 @@
     <ClInclude Include="AVL_tree.h">
       <Filter>Файлы заголовков\structures</Filter>
     </ClInclude>
+    <ClInclude Include="abstract_tree.h">
+      <Filter>Файлы заголовков\structures</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">

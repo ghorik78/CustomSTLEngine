@@ -16,4 +16,6 @@ int main() {
 	node->right_rotate(node);
 	node->forward_print(buff);
 
+	//system("pause");
+	return 0;
 }

@@ -1,2 +1,28 @@
 ﻿  main.cpp
-  CustomSTLEngine.vcxproj -> D:\Programming\GodLanguage\CustomSTLEngine\x64\Debug\CustomSTLEngine.exe
+C:\Programming\CPP\CustomSTLEngine\CustomSTLEngine\AVL_tree.h(128,30): error C3861: stdendl: идентификатор не найден
+C:\Programming\CPP\CustomSTLEngine\CustomSTLEngine\main.cpp(5): error C2259: "AVLNode<int>": невозможно создать экземпляр абстрактного класса
+C:\Programming\CPP\CustomSTLEngine\CustomSTLEngine\main.cpp(5): message : см. объявление "AVLNode<int>"
+C:\Programming\CPP\CustomSTLEngine\CustomSTLEngine\main.cpp(5): message : из-за следующих членов:
+C:\Programming\CPP\CustomSTLEngine\CustomSTLEngine\main.cpp(5): message : void TreeNode<T>::symmetric_print(const T *): абстрактный
+          with
+          [
+              T=int
+          ]
+C:\Programming\CPP\CustomSTLEngine\CustomSTLEngine\abstract_tree.h(8): message : см. объявление "TreeNode<T>::symmetric_print"
+          with
+          [
+              T=int
+          ]
+C:\Programming\CPP\CustomSTLEngine\CustomSTLEngine\main.cpp(5,39): error C2259: "AVLNode<int>": невозможно создать экземпляр абстрактного класса
+C:\Programming\CPP\CustomSTLEngine\CustomSTLEngine\main.cpp(5): message : см. объявление "AVLNode<int>"
+C:\Programming\CPP\CustomSTLEngine\CustomSTLEngine\main.cpp(5,39): message : из-за следующих членов:
+C:\Programming\CPP\CustomSTLEngine\CustomSTLEngine\main.cpp(5,39): message : void TreeNode<T>::symmetric_print(const T *): абстрактный
+          with
+          [
+              T=int
+          ]
+C:\Programming\CPP\CustomSTLEngine\CustomSTLEngine\abstract_tree.h(8): message : см. объявление "TreeNode<T>::symmetric_print"
+          with
+          [
+              T=int
+          ]
